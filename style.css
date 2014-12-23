@@ -126,10 +126,10 @@ a {
 		display: inline;
 	}
 	.masthead-intro {
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}	
 	.masthead-heading {
-		font-size: 1.6em;
+		font-size: 1.4em;
 	}
 	.introduction-section {
 		margin-top: 2em;
@@ -143,6 +143,6 @@ a {
 	}
 	.content-footer {
 		padding: 1em 0;
-	}	
+	}
 }
 
