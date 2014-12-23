@@ -20,6 +20,7 @@ p {
 .masthead {
 	 padding: 1.4em 3em 6.6em 32em;
 	 border-top: 20px solid #813e36;
+	 border-bottom: 1px solid #b5b5b5;
 	 color: #000;
 }
 .masthead-intro {
