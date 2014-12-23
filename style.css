@@ -22,7 +22,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	box-sizing: border-box;  
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,57 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Start of Custom Styles */
-html {
-	font-size: 62.5%;
-}
-body {
-    background-color: #fff;
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 0.01em;	    
-	-webkit-font-smoothing: antialiased;  
-}
-.content {
-    margin: 0 auto;  
-	width: 60%;	
-}
-/* Navigation Section */
-.top-navigation {
-    background-color: #fff;
-    position: fixed;
-	width: 100%;
-	z-index: 9999;
-	border-bottom: 1px solid #ddd;
-}
-.top-navigation .content {
-    height: 7rem;
-}
-.top-navigation .logo {
-	margin-top: 1.2rem;
-}
-.top-navigation .links {
-	float: right;
-	font-size: 1.3rem;  	
-	margin-top: 2.2rem;
-}
-.top-navigation .links li {
-	display: inline-block;
-	margin-left: 2rem;
-	transition: color 0.15s ease;	
-}
-.top-navigation .links .active {
-    color: #4c5058;
-    font-weight: 600;
-}
-.top-navigation .links a:hover {
-    color: #4c5058;
-    cursor: pointer;
-}
-.top-navigation .links a {
-	text-decoration: none;
-	color: #838994;
-	font-size: 1.3em;
-}
+
+/*Start of custom styles */
 
 body {
 	color: #222222;
@@ -210,7 +160,7 @@ a {
 		display: inline;
 	}
 	.masthead-intro {
-		font-size: 1.8em;
+		font-size: 1.6em;
 	}	
 	.masthead-heading {
 		font-size: 2.2em;
