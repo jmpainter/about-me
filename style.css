@@ -1,100 +1,149 @@
 body {
-    /* Typography Declarations */
-    color: #222222;
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+		/* Typography Declarations */
+		color: #222222;
+		font-size: 1em;
+		font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 h1 {
-  margin-bottom: .7em;
+	margin-bottom: .7em;
 }
 h2 {
-  font-size: 1.3em; 
+	font-size: 1.3em; 
 }
 p {
-  font-size: 1.1em;
+	font-size: 1.1em;
 }
 .masthead-heading,
 .masthead-intro {
-  text-align: center;
+	text-align: center;
 }
 .masthead {
-  padding: 1.4em 3em 6.6em 32em;
-  border-top: 20px solid #813e36;
-  color: #000;
+	 padding: 1.4em 3em 6.6em 32em;
+	 border-top: 20px solid #813e36;
+	 color: #000;
 }
 .masthead-intro {
-    margin-bottom: 0.1em;
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 2.1em; 
+	 margin-bottom: 0.1em;
+	 font-family: "Gentium Book Basic", Georgia, serif;
+	 font-size: 2.1em; 
 }
 .masthead-heading {
-  margin-top: -0.2em;
-  margin-bottom: 0em;
-  font-size: 3.3em;
-  letter-spacing: -0.03em;
-  line-height: 1.1em;
+	margin-top: -0.2em;
+	margin-bottom: 0em;
+	font-size: 3.3em;
+	letter-spacing: -0.03em;
+	line-height: 1.1em;
 }
 .masthead {
-  background-image: url(http://oi58.tinypic.com/280un3a.jpg);
-  background-repeat: none;
-  background-size: cover;
-  position: relative;
-  height: 12em;
+	background-image: url(http://oi58.tinypic.com/280un3a.jpg);
+	background-repeat: none;
+	background-size: cover;
+	position: relative;
+	height: 12em;
 }
 .masthead-text{
-  padding-left: 32em;
+	padding-left: 32em;
 }
 .introduction-section,
 .location-section,
 .questions-section {
-    max-width: 38em;
-    margin: 3em auto 2em auto;
+		max-width: 38em;
+		margin: 3em auto 2em auto;
 }
 .introduction-section {
-  margin-top: 5em;
+	margin-top: 5em;
 }
 .questions-section {
-  margin-bottom: 5em;
-  max-width: 32em;
-  padding-left: 3em;
-  padding-right: 3em;
+	margin-bottom: 5em;
+	max-width: 32em;
+	padding-left: 3em;
+	padding-right: 3em;
 }
 .questions-section > p {
-  margin-bottom: 2em;
-  margin-top: 1em;
+	margin-bottom: 2em;
+	margin-top: 1em;
 }
 .questions-section > h2 {
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #813e36;
-    margin-bottom: -.4em;
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #813e36;
+	margin-bottom: -.4em;
 }
 .content-footer {
-  background-color: #884c44;
-  text-align: center;
-  padding: 3em 0;
-  border-top: 1px solid black;
+	background-color: #884c44;
+	text-align: center;
+	padding: 3em 0;
+	border-top: 1px solid black;
 }
 .content-footer > p {
-  color: #FFF;
-  font-size: .9em;
-  text-shadow: 1px 1px 0px #000;
+	color: #FFF;
+	font-size: .9em;
+	text-shadow: 1px 1px 0px #000;
 }
 a {
-  color: #ead738;
-  text-decoration: none;
-  text-shadow: 1px 1px 0px #000
+	color: #ead738;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #000
 }
 .social {
-  margin: .7em 0;
+	margin: .7em 0;
 }
 .social > li {
-  display: inline-block;
-  padding-right: 1em;
-  font-weight: bold;
+	display: inline-block;
+	padding-right: 1em;
+	font-weight: bold;
 }
 .content-footer p {
-  margin: 0;
+	margin: 0;
+}
+/* Responsive Design */
+@media only screen and (max-width: 1000px) {
+	.masthead {
+		padding: .3em 0 6.6em;
+		text-align: center;
+		height: 8em;
+	}
+	.masthead-intro , .masthead-heading {
+		display: inline;
+	}
+	.masthead-intro {
+		font-size: 1.8em;
+	}	
+	.masthead-heading {
+		font-size: 2.2em;
+	}
+	.introduction-section {
+		margin-top: 3em;
+	}	
+}
+@media only screen and (max-width: 500px) {
+	.masthead {
+		padding: .2em 0 2em;
+		height: 3em;
+		text-align: center;
+	}
+	.masthead-intro , .masthead-heading {
+		display: inline;
+	}
+	.masthead-intro {
+		font-size: 1.2em;
+	}	
+	.masthead-heading {
+		font-size: 1.6em;
+	}
+	.introduction-section {
+		margin-top: 2em;
+	}
+	h1 {
+		margin-bottom: .2em;
+	}
+	.introduction-section, .location-section, .questions-section {
+		max-width: 38em;
+		margin: 1em auto 1em;
+	}
+	.content-footer {
+		padding: 1em 0;
+	}	
 }
 
